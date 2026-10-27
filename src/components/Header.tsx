@@ -65,6 +65,7 @@ const Header = () => {
         .nav-links-mobile a.active { background: var(--bg-elevated); }
         @media (max-width: 768px) { .nav-container { padding: 0.3rem 0; } .menu-toggle { display: block; } .nav-links { display: none; } .nav-mobile.open { display: block; max-height: 300px; } }
       `}</style>
+      
       <header className="header">
         <div className="nav">
           <div className="nav-container">

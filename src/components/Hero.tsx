@@ -67,7 +67,7 @@ const Hero = () => {
             <h1 className="hero-title">
               Building <span className="gradient">practical and reliable</span> solutions from complex requirements
             </h1>
-            <img src="/assets/banner.png" alt="Developer illustration" className="hero-image-mobile" />
+            <img src="/portfolio/assets/banner.png" alt="Developer illustration" className="hero-image-mobile" />
             <p className="hero-description">
               Software developer with 2+ years of experience architecting and deploying production-grade applications. I focus on writing clean, maintainable code that solves real problems and performs reliably under load.
             </p>
@@ -89,7 +89,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero-visual">
-            <img src="/assets/banner.png" alt="Developer illustration" className="hero-image" />
+            <img src="/portfolio/assets/banner.png" alt="Developer illustration" className="hero-image" />
           </div>
         </div>
         <div className="skills-summary">

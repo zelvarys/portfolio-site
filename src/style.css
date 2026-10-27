@@ -32,7 +32,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   color: var(--text-primary);
   line-height: 1.6;
-  background-image: url('/assets/canvas.svg');
+  background-image: url('/portfolio/assets/canvas.svg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

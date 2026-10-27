@@ -57,6 +57,7 @@ const Contact = () => {
         @media (max-width: 540px) { .contact-info { display: none; } }
         @media (max-width: 480px) { .contact-form-wrapper { padding: 1rem; } .form-status { font-size: 0.85rem; padding: 0.5rem 0.75rem; gap: 6px; } }
       `}</style>
+      
       <section id="contact" className="contact-section">
         <div className="section-header">
           <h2>Contact Page</h2>

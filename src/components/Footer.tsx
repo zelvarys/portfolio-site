@@ -24,7 +24,7 @@ const Footer = () => {
       `}</style>
       <footer className="footer">
         <div className="footer-container">
-          <img src="/assets/favicon.svg" alt="Zelvarys" />
+          <img src="/portfolio/assets/favicon.svg" alt="Zelvarys" />
           <div className="footer-brand">
             <p>Software developer building clean and efficient solutions.</p>
             <div className="social-links">

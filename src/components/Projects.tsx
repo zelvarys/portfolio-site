@@ -126,6 +126,7 @@ const Projects = () => {
         @media (max-width: 1024px) { .projects-grid { grid-template-columns: repeat(2, 1fr); } }
         @media (max-width: 768px) { .section-header { margin: 0 0 1.5rem 0; } .section-header h2 { font-size: 1.6rem; } .projects-grid { grid-template-columns: 1fr; gap: 1rem; } .cta-section { margin: 2rem 1rem; } }
       `}</style>
+      
       <section id="projects" className="projects-section">
         <div className="section-header">
           <h2>Projects Archive</h2>
