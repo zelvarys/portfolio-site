@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 270 20% 3%;
+    --foreground: 260 10% 96%;
+    --card: 270 16% 7%;
+    --card-foreground: 260 10% 96%;
+    --popover: 270 18% 6%;
+    --popover-foreground: 260 10% 96%;
+    --primary: 272 55% 38%;
+    --button: 272 55% 33%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 270 14% 12%;
+    --secondary-foreground: 270 10% 92%;
+    --muted: 270 14% 12%;
+    --muted-foreground: 270 8% 64%;
+    --accent: 272 24% 15%;
+    --accent-foreground: 272 75% 78%;
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 270 14% 15%;
+    --input: 270 14% 10%;
+    --ring: 272 55% 38%;
+    --radius: 0.75rem;
+    --field: 270 16% 5%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased font-sans;
+    font-size-adjust: 0.55;
+    background-image: url('/portfolio/assets/canvas.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-foreground;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted));
+    border-radius: 9999px;
+    border: 2px solid hsl(var(--background));
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer utilities {
+  .bg-radial-fade {
+    background: radial-gradient(
+      ellipse 80% 55% at 50% -10%,
+      hsl(var(--primary) / 0.16),
+      transparent 70%
+    );
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
