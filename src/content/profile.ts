@@ -26,11 +26,11 @@ export const profile = {
   interests: ["AI agents & LLM tooling", "Payments & fintech infrastructure", "Products for African markets", "Developer experience"],
   links: {
     github: "https://github.com/Conqueror102",
-    linkedin: "https://www.linkedin.com/in/victor-conqueror-956635327/",
+    linkedin: "https://www.linkedin.com/in/zelvarys",
     x: "https://x.com/TECH_snitch101",
     xHandle: "@TECH_snitch101",
     tiktok: "https://www.tiktok.com/@victor.conqueror0",
-    whatsapp: "https://wa.me/2348025383208",
+    whatsapp: "https://wa.me/2348101730524",
   },
 } as const
 

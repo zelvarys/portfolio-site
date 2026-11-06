@@ -6,9 +6,9 @@ export const homeContent = {
   navigation: [
     { label: "Work", href: "#projects" },
     { label: "About", href: "#about" },
-    { label: "Beyond the IDE", href: "#outside-the-ide" },
     { label: "Services", href: "#services" },
     { label: "Process", href: "#process" },
+    { label: "Beyond the IDE", href: "#outside-the-ide" },
     { label: "Contact", href: "#contact" },
   ],
   header: { wordmark: "zelvarys", signature: "BORN TO CREATE", homeLabel: "zelvarys home", contact: "Let’s talk", openMenu: "Open navigation", closeMenu: "Close navigation", mainNav: "Main navigation", mobileNav: "Mobile navigation" },
@@ -65,7 +65,7 @@ export const homeContent = {
   about: {
     index: "01 / A LITTLE CONTEXT", label: "About me", heading: "Conqueror", greeting: "I’m", title: ["I build the whole thing.", "Then I ship it."],
     portrait: "/images/about/victor-editorial-cutout.png", photoAlt: "Grayscale portrait of Victor Onyemaechi", cv: "Download my CV", cvLabel: "CV",
-    feature: { video: "/videos/teaching-kode10x.mp4", image: "/images/about/teaching-video-poster.jpg", alt: "Victor teaching a Kode10x class, pointing at React code on a large screen", label: "Teaching code at Kode10x.", link: "See more from my classes", href: "#outside-the-ide",
+    feature: { video: "/videos/teaching-kode10x.mp4", image: "/images/about/teaching-video-poster.jpg", alt: "Victor teaching a Kode10x class, pointing at React code on a large screen", label: "Teaching code at Kode10x.", link: "More beyond the IDE", href: "#outside-the-ide",
       fullVideo: "/videos/teaching-kode10x-full.mp4", fullPoster: "/images/about/teaching-video-full-poster.jpg", watchLabel: "Watch me teach · 1:07", closeLabel: "Close video" },
     sculpture: { image: "/images/about/creative-orbit.png", link: "Explore my services", href: "#services" },
     projectsLabel: "Projects", skillsCountLabel: "Skills", groupsLabel: "Connected skill sets.", skillsLink: "Explore my skills",
@@ -82,11 +82,11 @@ export const homeContent = {
     skillsTitle: "The things I bring to the table.", skillsLabel: "THE TOOLBOX", interestsLabel: "ALWAYS CURIOUS ABOUT",
   },
   projects: { index: "02 / SELECTED WORK", title: ["Products in", "the real world."], description: "Telemedicine, attendance, cloud storage and AI planning. Each one designed, built and shipped end to end.", live: "Visit website", code: "Source code", detail:"View case study", archive: "Explore the full collection", archiveClose: "Show selected projects", allLabel: "projects", imageAltSuffix: "website preview", featuredCount: 4, filterLabel: "Filter projects", allFilter: "Everything", buildLabel: "BUILT WITH", notes: "Inside the project", preview: "View case study", collectionLabel: "THE PROJECT COLLECTION", resultLabel: "in view" },
-  services: { index: "05 / HOW I CAN HELP", title: ["A good idea deserves", "a great execution."], description: "From a first sketch to a product people use, here’s where I can help.", processLabel: "HOW WE GET THERE", processTitle: "A clear path from idea to launch." },
-  faq: { index: "07 / GOOD QUESTIONS", title: ["Some things you", "might be wondering."], contact: "Still curious? Let’s talk.", expand: "Read answer" },
+  services: { index: "03 / HOW I CAN HELP", title: ["A good idea deserves", "a great execution."], description: "From a first sketch to a product people use, here’s where I can help.", processLabel: "HOW WE GET THERE", processTitle: "A clear path from idea to launch." },
+  faq: { index: "06 / GOOD QUESTIONS", title: ["Frequently", "asked questions"], contact: "Still curious? Let’s talk.", expand: "Read answer" },
   contact: {
-    index: "08 / YOUR NEXT CHAPTER", title: ["Let’s build something.", ""], description: "Do you want a new product, a feature that needs an expert hand, or a full-time role? Tell me what you’re working on and I’ll reply within 12 hours.", emailLabel: "DROP ME A LINE", whatsapp: "Chat on WhatsApp", cv: "Download my CV", linkedin: "Connect on LinkedIn", formTitle: "Tell me about your project.",
-    form: { name: "Prospect name", email: "Email address", message: "What are you building?", namePlaceholder: "What should I call you?", emailPlaceholder: "you@example.com", messagePlaceholder: "The product, the timeline, and where you need help…", submit: "Send message", sending: "Opening email…", success: "Your email app is opening with the message. You can also email or message me on WhatsApp." },
+    index: "07 / YOUR NEXT CHAPTER", title: ["Let’s build something.", ""], description: "Do you want a new product, a feature that needs an expert hand, or a full-time role? Tell me what you’re working on, the stage you’re at and when you need it, and I’ll reply within 12 hours.", emailLabel: "DROP ME A LINE", whatsapp: "Chat on WhatsApp", cv: "Download my CV", linkedin: "Connect on LinkedIn", formTitle: "Tell me about your project.",
+    form: { name: "Prospect name", email: "Email address", message: "What are you building?", namePlaceholder: "What should I call you?", emailPlaceholder: "you@example.com", messagePlaceholder: "The product, the timeline, and where you need help…", submit: "Send message", sending: "Opening WhatsApp…", success: "WhatsApp is opening with your message. If it doesn’t, you can email me directly." },
   },
   footer: {
     top: "Back to the top", copyright: "© 2026 Zelvarys. All rights reserved.",

@@ -10,7 +10,6 @@ import { OutsideIdeSection } from "@/components/home/outside-ide"
 import { ProcessSection } from "@/components/home/process-section"
 import { ProjectsSection } from "@/components/home/projects"
 import { ServicesSection } from "@/components/home/services"
-import { TestimonialsSection } from "@/components/home/testimonials"
 import { getPortfolioContent } from "@/lib/portfolio-content"
 import "./index.css"
 
@@ -23,10 +22,9 @@ createRoot(document.getElementById("root")!).render(
       <PortfolioHero content={content} />
       <AboutSection content={content} />
       <ProjectsSection content={content} />
-      <OutsideIdeSection content={content} />
-      <TestimonialsSection content={content} />
       <ServicesSection content={content} />
       <ProcessSection content={content} />
+      <OutsideIdeSection content={content} />
       <FaqSection content={content} />
       <ContactSection content={content} />
     </main>

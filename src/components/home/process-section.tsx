@@ -7,7 +7,7 @@ export function ProcessSection({ content }: { content: PortfolioContent }) {
   return <section className="process-section" id="process" aria-labelledby="process-title">
     <div className="home-section process-inner">
       <header className="process-heading">
-        <div><p className="section-kicker">{copy.kicker}</p><h2 id="process-title">{copy.title[0]}<br /><span>{copy.title[1]}</span></h2></div>
+        <div><p className="section-kicker">{copy.kicker}</p><h2 className="section-title" id="process-title">{copy.title[0]}<br /><span>{copy.title[1]}</span></h2></div>
         <p>{copy.description}</p>
       </header>
       <ProcessExplorer steps={content.process} copy={copy} />

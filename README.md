@@ -1,4 +1,4 @@
-# Victor Onyemaechi — Portfolio
+Zelvarys — Portfolio
 
 A single-page portfolio for Victor Onyemaechi, built with React, TypeScript and Vite.
 

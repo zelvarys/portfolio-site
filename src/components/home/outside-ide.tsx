@@ -1,10 +1,10 @@
 import { Image } from "@/components/ui/image"
-import { ArrowUpRight, BookOpen, GraduationCap, Users } from "lucide-react"
+import { ArrowUpRight, BookOpen, ChessKnight, Users } from "lucide-react"
 import type { PortfolioContent } from "@/lib/portfolio-content"
 
 export function OutsideIdeSection({ content }: { content: PortfolioContent }) {
   const copy = content.outside
-  const categoryIcons = [BookOpen, Users, GraduationCap]
+  const categoryIcons = [BookOpen, Users, ChessKnight]
   const shelf = content.home.hero.bookshelf
   return <section className="home-section outside-section" id="outside-the-ide" aria-labelledby="outside-title">
     <header className="outside-heading">

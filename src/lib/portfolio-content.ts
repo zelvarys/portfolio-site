@@ -5,7 +5,7 @@ import { projects } from "@/content/projects"
 import { skillGroups } from "@/content/skills"
 import { process, processPresentation, faqs } from "@/content/services"
 import { skillGraph } from "@/content/skill-graph"
-import { outsideContent, testimonialsContent, capabilitiesContent } from "@/content/journey"
+import { outsideContent, capabilitiesContent } from "@/content/journey"
 import { galleryContent } from "@/content/gallery"
 
 /** Static content for the single-page portfolio. */
@@ -23,7 +23,6 @@ export function getPortfolioContent() {
     faqs,
     skillGraph,
     outside: outsideContent,
-    testimonials: testimonialsContent,
     capabilities: capabilitiesContent,
   }
 }

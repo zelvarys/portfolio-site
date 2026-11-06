@@ -6,7 +6,7 @@ export const process = [
 ]
 
 export const processPresentation = {
-  kicker: "06 / HOW WE GET THERE",
+  kicker: "04 / HOW WE GET THERE",
   title: ["The process", "from idea to launch."],
   description: "A conversation becomes a plan. A plan becomes a product. Here’s how we make it work together.",
   tabsLabel: "Explore the project stages",
