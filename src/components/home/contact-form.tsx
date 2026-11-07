@@ -12,7 +12,7 @@ export function ContactForm({ copy }: { copy: HomepageCopy["contact"]["form"] })
     const name = String(data.get("name") ?? "")
     const email = String(data.get("email") ?? "")
     const message = String(data.get("message") ?? "")
-    const body = encodeURIComponent(`Hi Victor, I'm ${name} (${email}).\n\n${message}`)
+    const body = encodeURIComponent(`*Name*: ${name}\n*Email:* ${email}\n\n*Purpose*: ${message}`)
     setStatus("sending")
     window.location.href = `${profile.links.whatsapp}?text=${body}`
     window.setTimeout(() => setStatus("success"), 400)

@@ -8,7 +8,8 @@ export function ServicesSection({ content }: { content: PortfolioContent }) {
   const { capabilities } = content
   return <section className="home-section services-section" id="services" aria-labelledby="services-title">
     <div className="section-kicker">{capabilities.kicker}</div>
-    <div className="section-heading-row"><h2 className="section-title" id="services-title">{capabilities.title[0]}<br /><span>{capabilities.title[1]}</span></h2><p className="section-body">{capabilities.description}</p></div>
+    <div className="section-heading-row"><h2 className="section-title" id="services-title">{capabilities.title[0]}{capabilities.title[1] && <><br /><span>{capabilities.title[1]}</span></>}</h2><p className="section-body">{capabilities.description}</p></div>
+    <div className="capabilities-label"><span>{capabilities.listLabel}</span><span>{String(capabilities.items.length).padStart(2, "0")} {capabilities.countLabel}</span></div>
     <div className="capabilities-list">{capabilities.items.map(item => {
       const Icon = icons[item.icon as keyof typeof icons]
       return <article className={`capability capability-${item.tone}`} key={item.id}>

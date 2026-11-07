@@ -1,13 +1,13 @@
 export const process = [
-  { title: "Discovery", description: "Understanding your business needs, target audience, and project goals through in-depth consultation.", image: "/images/process/discovery.webp", imageAlt: "A sculptural chrome lens examining a coral sphere", headline: "First, we get curious.", outcomes: ["Goals, audience, and success criteria", "A shared understanding of the scope"], result: "The right problem, clearly understood." },
-  { title: "Planning", description: "Creating a detailed project roadmap, wireframes, and technical specifications.", image: "/images/process/planning.webp", imageAlt: "Precision glass modules arranged into a considered architecture", headline: "Give the idea a structure.", outcomes: ["A practical roadmap and priorities", "Wireframes and a technical approach"], result: "A plan that connects the dots." },
-  { title: "Development", description: "Building your project using modern technologies and best practices for optimal performance.", image: "/images/process/development.webp", imageAlt: "Engineered components connecting around a translucent glass core", headline: "Make the pieces work together.", outcomes: ["Working product increments", "Feedback throughout the build"], result: "A useful product, taking shape." },
-  { title: "Delivery", description: "Rigorous testing, refinement, and launching your project with ongoing support and maintenance.", image: "/images/process/delivery.webp", imageAlt: "An orange arrow passing through a sculptural glass launch ring", headline: "Ready for the real world.", outcomes: ["Testing and final refinements", "Launch and ongoing support"], result: "Something ready to put to work." },
+  { title: "Discovery", description: "Understanding your business needs, target audience, and project goals through in-depth consultation.", headline: "First, we get curious.", outcomes: ["Goals, audience, and success criteria", "A shared understanding of the scope"], result: "The right problem, clearly understood." },
+  { title: "Planning", description: "Creating a detailed project roadmap, wireframes, and technical specifications.", headline: "Give the idea a structure.", outcomes: ["A practical roadmap and priorities", "Wireframes and a technical approach"], result: "A plan that connects the dots." },
+  { title: "Development", description: "Building your project using modern technologies and best practices for optimal performance.", headline: "Make the pieces work together.", outcomes: ["Working product increments", "Feedback throughout the build"], result: "A useful product, taking shape." },
+  { title: "Delivery", description: "Rigorous testing, refinement, and launching your project with ongoing support and maintenance.", headline: "Ready for the real world.", outcomes: ["Testing and final refinements", "Launch and ongoing support"], result: "Something ready to put to work." },
 ]
 
 export const processPresentation = {
   kicker: "04 / HOW WE GET THERE",
-  title: ["The process", "from idea to launch."],
+  title: ["Idea to Launch.", ""],
   description: "A conversation becomes a plan. A plan becomes a product. Here’s how we make it work together.",
   tabsLabel: "Explore the project stages",
   exploreLabel: "EXPLORE THE STAGES",

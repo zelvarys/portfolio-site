@@ -24,7 +24,7 @@ export const galleryContent = {
     { src: "/images/gallery/teaching-quiz-review.jpg", alt: "Victor presenting quiz answers on a screen to a class at laptops", caption: "Going over the answers together.", position: "38% 45%", showInHero: true },
     { src: "/images/me2.jpg", alt: "Victor thinking beside his laptop", caption: "Always a little curious.", position: "50% 14%", showInHero: true },
     { src: "/images/me3.jpg", alt: "Victor at his laptop in Lagos", caption: "Ideas start with people.", position: "50% 14%", showInHero: true },
-    { src: "/images/gallery/microsoft-ai-event.jpg", alt: "Victor standing in front of a Microsoft banner at a tech event, wearing a guest lanyard", caption: "In the room at a Microsoft event.", position: "50% 25%", showInHero: false },
+    { src: "/images/gallery/tech-community.png", alt: "The tech community gathered at an event", caption: "With the tech community.", position: "50% 35%", showInHero: false },
     { src: "/images/gallery/playing-chess.jpg", alt: "Victor playing chess", caption: "The board is where I slow down.", position: "50% 45%", showInHero: false },
     { src: "/images/about/victor-editorial-cutout.png", alt: "Grayscale portrait of Victor Onyemaechi", caption: "The human behind the code.", position: "50% 20%", showInHero: false },
   ] as GalleryPhoto[],
