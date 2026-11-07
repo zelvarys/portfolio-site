@@ -22,7 +22,7 @@ export const outsideContent = {
     {
       id: "spanish", category: "SPANISH", title: "Learning Spanish, slowly.",
       body: "Mostly for the humbling experience of being a beginner again. I’m taking it one conversation at a time, mistakes and all, and getting a little better each week. It’s a reminder that the discomfort of not knowing is where most of the learning happens.",
-      image: "", imageAlt: "Spanish learning photo coming soon", imagePosition: "50% 50%",
+      image: "/images/gallery/learning-spanish.jpg", imageAlt: "Victor learning Spanish", imagePosition: "50% 50%",
       caption: "Still learning the basics.", preview: false,
     },
     {

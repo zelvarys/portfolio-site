@@ -16,9 +16,7 @@ export function OutsideIdeSection({ content }: { content: PortfolioContent }) {
     })}<span className="outside-side-note">{copy.sideNote}</span></div>
     <div className="outside-stories">{copy.stories.map((story, index) => <article className={`outside-story outside-story-${index % 2}`} key={story.id}>
       <figure className="outside-photo">
-        {story.image
-          ? <div className="outside-image"><Image src={story.image} alt={story.imageAlt} fill sizes="(max-width: 700px) 90vw, 48vw" style={{ objectPosition: story.imagePosition }} /></div>
-          : <div className="outside-image outside-image-empty" role="img" aria-label={story.imageAlt}><span>{story.category}</span><p>Photo coming soon.</p></div>}
+        <div className="outside-image"><Image src={story.image} alt={story.imageAlt} fill sizes="(max-width: 700px) 90vw, 48vw" style={{ objectPosition: story.imagePosition }} /></div>
         <figcaption><span>{String(index + 1).padStart(2, "0")}</span>{story.caption}</figcaption>
       </figure>
       <div className="outside-story-copy">

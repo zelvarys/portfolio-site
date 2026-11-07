@@ -765,9 +765,6 @@ html { scroll-behavior: smooth; }
 @media(prefers-reduced-motion:reduce) { .outside-image img { transition:none; }
   .faq-answer > div,.faq-icon,.faq-column summary { transition:none; }
  }
-.outside-image-empty { display: grid; place-content: center; gap: 8px; padding: 24px; background: color-mix(in srgb, var(--color-sky) 34%, var(--color-cream)); color: var(--color-cocoa); text-align: center; }
-.outside-image-empty span { font: 9px var(--font-jetbrains-mono), monospace; letter-spacing: .12em; }
-.outside-image-empty p { font: 400 clamp(22px, 2.4vw, 34px)/1.1 var(--font-delius), sans-serif; }
 .process-section { background:var(--color-cream); color:var(--color-cocoa); }
 .process-inner { padding-block:95px 65px; }
 .process-heading { display:flex; justify-content:space-between; align-items:flex-end; gap:50px; margin-bottom:55px; }
