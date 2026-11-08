@@ -4,14 +4,14 @@ import { profile } from "./profile"
 export const homeContent = {
   brand: { name: "Victor Conqueror", slogan: ["Born to", "live", "create."] },
   navigation: [
-    { label: "Work", href: "#projects" },
     { label: "About", href: "#about" },
+    { label: "Projects", href: "#projects" },
     { label: "Services", href: "#services" },
     { label: "Process", href: "#process" },
     { label: "Beyond the IDE", href: "#outside-the-ide" },
     { label: "Contact", href: "#contact" },
   ],
-  header: { wordmark: "zelvarys", signature: "BORN TO CREATE", homeLabel: "zelvarys home", contact: "Let’s talk", openMenu: "Open navigation", closeMenu: "Close navigation", mainNav: "Main navigation", mobileNav: "Mobile navigation" },
+  header: { wordmark: "zelvarys", signature: "BORN TO CREATE", homeLabel: "zelvarys home", github: "GitHub", openMenu: "Open navigation", closeMenu: "Close navigation", mainNav: "Main navigation", mobileNav: "Mobile navigation" },
   hero: {
     kicker: "THE HUMAN BEHIND THE CODE", greeting: "Hey, I’m", personality: "Full-stack & AI engineer. Curious problem solver.",
     portrait: "/images/hero/victor-arsenal-macbook-cutout.png", portraitAlt: "Illustrated Victor wearing an Arsenal jersey and embracing a MacBook", location: "LAGOS, NG",
@@ -31,7 +31,7 @@ export const homeContent = {
       ] as { label: string; icon: string; href: string | null }[],
     },
     availability: "Open to remote roles & freelance projects", unavailable: "Currently focused on ongoing projects", connectTitle: ["Building something?", "Let’s ship it."], connectLink: "Start a project", cvLabel: "Download my CV",
-    footnote: "Health tech, fintech, SaaS and AI. Built end to end.", aboutLink: "Get to know me", selectedWork: "SELECTED WORK", featuredSlug: "surecova",
+    footnote: "Health tech, fintech, SaaS and AI. Built end to end.", aboutLink: "Get to know me", selectedWork: "SELECTED WORK", featuredSlug: "repositron",
     copy: { label: "Copy email address", copiedLabel: "Email copied", idle: "From the first pixel to the last API.", success: "Email copied. Say hello whenever you’re ready.", error: "Copy unavailable —" },
     slideshow: {
       label: "A few moments behind the work", slideLabel: "Photo", interval: 5500,
@@ -81,7 +81,7 @@ export const homeContent = {
     },
     skillsTitle: "The things I bring to the table.", skillsLabel: "THE TOOLBOX", interestsLabel: "ALWAYS CURIOUS ABOUT",
   },
-  projects: { index: "02 / SELECTED WORK", title: ["Products in", "the real world."], description: "Telemedicine, attendance, cloud storage and AI planning. Each one designed, built and shipped end to end.", live: "Visit website", code: "Source code", detail:"View case study", archive: "Explore the full collection", archiveClose: "Show selected projects", allLabel: "projects", imageAltSuffix: "website preview", featuredCount: 4, filterLabel: "Filter projects", allFilter: "Everything", buildLabel: "BUILT WITH", notes: "Inside the project", preview: "View case study", collectionLabel: "THE PROJECT COLLECTION", resultLabel: "in view" },
+  projects: { index: "02 / SELECTED WORK", title: ["Featured Projects", ""], description: "Developer tools, automation and websites built to make everyday work a little clearer, faster and more reliable.", live: "Visit website", code: "Source code", archive: "Explore the full collection", archiveClose: "Show selected projects", allLabel: "projects", imageAltSuffix: "project preview", featuredCount: 4, buildLabel: "BUILT WITH" },
   services: { index: "03 / HOW I CAN HELP", title: ["A good idea deserves", "a great execution."], description: "From a first sketch to a product people use, here’s where I can help.", processLabel: "HOW WE GET THERE", processTitle: "A clear path from idea to launch." },
   contact: {
     index: "07 / YOUR NEXT CHAPTER", title: ["Let’s get in touch", ""], description: "Do you want a new product, a feature that needs an expert hand, or a full-time role? Tell me what you’re working on, the stage you’re at and when you need it, and I’ll reply within 12 hours.", emailLabel: "DROP ME A LINE", whatsapp: "Chat on WhatsApp", cv: "Download my CV", linkedin: "Connect on LinkedIn", formTitle: "Tell me about your project.",
