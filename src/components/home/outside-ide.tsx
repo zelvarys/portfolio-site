@@ -23,7 +23,6 @@ export function OutsideIdeSection({ content }: { content: PortfolioContent }) {
         <span className="outside-category">{story.category}</span>
         <h3>{story.title}</h3><p>{story.body}</p>
         {story.link && <a className="text-link" href={story.link.href}>{story.link.label}<ArrowUpRight size={17} aria-hidden="true" /></a>}
-        {story.preview && <span className="journey-preview">{copy.previewLabel}</span>}
       </div>
     </article>)}</div>
   </section>

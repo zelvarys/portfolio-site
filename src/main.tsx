@@ -2,7 +2,6 @@ import { StrictMode } from "react"
 import { createRoot } from "react-dom/client"
 import { PortfolioHeader } from "@/components/layout/site-header"
 import { SiteFooter } from "@/components/layout/site-footer"
-import { AboutSection } from "@/components/home/about"
 import { ContactSection } from "@/components/home/contact"
 import { FaqSection } from "@/components/home/faq"
 import { PortfolioHero } from "@/components/home/hero"
@@ -20,7 +19,6 @@ createRoot(document.getElementById("root")!).render(
     <PortfolioHeader content={content} />
     <main>
       <PortfolioHero content={content} />
-      <AboutSection content={content} />
       <ProjectsSection content={content} />
       <ServicesSection content={content} />
       <ProcessSection content={content} />

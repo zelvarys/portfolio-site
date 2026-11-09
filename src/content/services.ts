@@ -35,7 +35,7 @@ export const faqs = [
   {
     question: "Active for freelance or remote work?",
     answer:
-      "Yes. I am based in Ondo State, Nigeria (WAT, UTC+1) and work remotely with clients and teams worldwide, on freelance projects, contracts or full-time roles.",
+      "Yes. I work remotely with clients and teams worldwide, on freelance projects, contracts or full-time roles.",
   },
   {
     question: "How do I start a project with you?",

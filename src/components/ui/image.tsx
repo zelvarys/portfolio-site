@@ -9,14 +9,10 @@ type ImageProps = {
   sizes?: string
   className?: string
   style?: CSSProperties
-  priority?: boolean
   preload?: boolean
-  loading?: "eager" | "lazy"
-  unoptimized?: boolean
-  quality?: number
 }
 
-export function Image({ src, alt, width, height, fill, sizes, className, style, priority, preload, loading, unoptimized: _unoptimized, quality: _quality, ...rest }: ImageProps) {
+export function Image({ src, alt, width, height, fill, sizes, className, style, preload }: ImageProps) {
   const fillStyle: CSSProperties | undefined = fill
     ? { position: "absolute", inset: 0, width: "100%", height: "100%", ...style }
     : style
@@ -30,9 +26,8 @@ export function Image({ src, alt, width, height, fill, sizes, className, style, 
       sizes={sizes}
       className={className}
       style={fillStyle}
-      loading={priority || preload ? "eager" : loading ?? "lazy"}
-      decoding={priority || preload ? "sync" : "async"}
-      {...rest}
+      loading={preload ? "eager" : "lazy"}
+      decoding={preload ? "sync" : "async"}
     />
   )
 }
