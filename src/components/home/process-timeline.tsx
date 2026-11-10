@@ -14,7 +14,7 @@ export function ProcessTimeline({ steps, copy }: Props) {
     <ol className="process-steps" aria-label={copy.tabsLabel}>
       {steps.map((step, index) => {
         const Icon = icons[index % icons.length]
-        return <li className={`process-step process-step-${index + 1}`} key={step.title}>
+        return <li className="process-step" key={step.title}>
           <div className="process-step-head">
             <span className="process-step-number">{String(index + 1).padStart(2, "0")}</span>
             <span className="process-step-icon"><Icon size={20} strokeWidth={1.6} aria-hidden="true" /></span>

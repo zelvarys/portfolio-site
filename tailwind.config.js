@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        peach: "var(--color-peach)",
+        mist: "var(--color-mist)",
         cream: "var(--color-cream)",
         cocoa: "var(--color-cocoa)",
         "cocoa-soft": "var(--color-cocoa-soft)",

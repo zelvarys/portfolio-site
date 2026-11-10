@@ -10,7 +10,7 @@ export const profile = {
   availableForWork: true,
   cv: "/zelvarys-cv.pdf",
   links: {
-    github: "https://github.com/Conqueror102",
+    github: "https://github.com/zelvarys",
     linkedin: "https://www.linkedin.com/in/zelvarys",
     whatsapp: "https://wa.me/2348101730524",
   },
