@@ -8,7 +8,7 @@ export const profile = {
   ],
   email: "me.zelvarys@gmail.com",
   availableForWork: true,
-  cv: "/zelvarys-cv.pdf",
+  cv: "zelvarys-cv.pdf",
   links: {
     github: "https://github.com/zelvarys",
     linkedin: "https://www.linkedin.com/in/zelvarys",

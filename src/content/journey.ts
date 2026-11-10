@@ -20,19 +20,19 @@ export const outsideContent = {
     {
       id: "spanish", category: "SPANISH", title: "Learning Spanish, slowly.",
       body: "Mostly for the humbling experience of being a beginner again. I’m taking it one conversation at a time, mistakes and all, and getting a little better each week. It’s a reminder that the discomfort of not knowing is where most of the learning happens.",
-      image: "/images/learning-spanish.jpg", imageAlt: "Zelvarys learning Spanish", imagePosition: "50% 50%",
+      image: "images/learning-spanish.jpg", imageAlt: "Zelvarys learning Spanish", imagePosition: "50% 50%",
       caption: "Still learning the basics.",
     },
     {
       id: "events", category: "EVENTS & COMMUNITY", title: "Builders sharing ideas.",
       body: "When I’m not building, I’m usually at a tech conference or meetup, in person or online. I go to learn what others are working on, swap ideas with people who see problems differently, and meet the builders I might work with next. Some of my best ideas started as a hallway conversation.",
-      image: "/images/tech-community.png", imageAlt: "The tech community gathered at an event", imagePosition: "50% 35%",
+      image: "images/tech-community.png", imageAlt: "The tech community gathered at an event", imagePosition: "50% 35%",
       caption: "Ideas start with people.",
     },
     {
       id: "chess", category: "CHESS", title: "Planning moves ahead.",
       body: "Chess is how I practise patience and pattern recognition away from the keyboard. Every game asks me to read the board, test an assumption and commit to a plan, then adapt when the other person has a better idea. It keeps me curious, competitive and comfortable with thinking two steps ahead.",
-      image: "/images/playing-chess.jpg", imageAlt: "Zelvarys playing chess", imagePosition: "50% 45%",
+      image: "images/playing-chess.jpg", imageAlt: "Zelvarys playing chess", imagePosition: "50% 45%",
       caption: "The board is where I slow down.",
       link: { label: "Challenge me to a game", href: "https://www.chess.com/member/Zelvarys" },
     },

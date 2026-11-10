@@ -12,7 +12,7 @@ export const homeContent = {
   header: { wordmark: "zelvarys", homeLabel: "zelvarys home", github: "GitHub", openMenu: "Open navigation", closeMenu: "Close navigation", mainNav: "Main navigation", mobileNav: "Mobile navigation" },
   hero: {
     kicker: "THE HUMAN BEHIND THE CODE",
-    portrait: "/images/zelvarys-hero.png", portraitAlt: "Zelvarys",
+    portrait: "images/zelvarys-hero.png", portraitAlt: "Zelvarys",
     headline: ["Ideas into", "production", "software."], description: "I build complete products: web apps, APIs, databases and cloud infrastructure, and ship them to production.",
     workLink: "Explore my work",
     availability: "Open to remote roles & freelance projects", unavailable: "Currently focused on ongoing projects", connectLink: "Start a project",
