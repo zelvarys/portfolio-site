@@ -1,31 +1,31 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import { StrictMode } from "react"
+import { createRoot } from "react-dom/client"
+import { PortfolioHeader } from "@/components/layout/site-header"
+import { SiteFooter } from "@/components/layout/site-footer"
+import { ContactSection } from "@/components/home/contact"
+import { FaqSection } from "@/components/home/faq"
+import { PortfolioHero } from "@/components/home/hero"
+import { OutsideIdeSection } from "@/components/home/outside-ide"
+import { ProcessSection } from "@/components/home/process-section"
+import { ProjectsSection } from "@/components/home/projects"
+import { ServicesSection } from "@/components/home/services"
+import { getPortfolioContent } from "@/lib/portfolio-content"
+import "./index.css"
 
-import '@fontsource/jetbrains-mono/latin-400.css'
-import '@fontsource/jetbrains-mono/latin-500.css'
-import '@fontsource/jetbrains-mono/latin-600.css'
+const content = getPortfolioContent()
 
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
-import './index.css'
-
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <a
-      href="#home"
-      className="sr-only rounded-md bg-primary px-4 py-2 text-primary-foreground focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60]"
-    >
-      Skip to content
-    </a>
-    <Header />
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <PortfolioHeader content={content} />
     <main>
-      <Hero />
-      <Projects />
-      <Contact />
+      <PortfolioHero content={content} />
+      <ProjectsSection content={content} />
+      <ServicesSection content={content} />
+      <ProcessSection content={content} />
+      <OutsideIdeSection content={content} />
+      <FaqSection content={content} />
+      <ContactSection content={content} />
     </main>
-    <Footer />
-  </React.StrictMode>
+    <SiteFooter content={content} />
+  </StrictMode>,
 )
