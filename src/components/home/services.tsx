@@ -15,7 +15,7 @@ export function ServicesSection({ content }: { content: PortfolioContent }) {
       return <article className={`capability capability-${item.tone}`} key={item.id}>
         <div className="capability-marker"><span>{item.number}</span><Icon size={32} strokeWidth={1.3} aria-hidden="true" /></div>
         <div className="capability-copy"><span className="outside-category">{item.label}</span><h3>{item.title}</h3><p>{item.description}</p><ul>{item.details.map(detail => <li key={detail}><Check size={15} aria-hidden="true" />{detail}</li>)}</ul><a className="text-link" href="#contact">{capabilities.linkLabel}<ArrowUpRight size={17} aria-hidden="true" /></a></div>
-        <div className="capability-tools"><p>{item.note}</p><ul>{item.tools.map(tool => <li key={tool.name}><Image src={`icons/brands/${tool.icon}.svg`} width={30} height={30} alt="" /><span>{tool.name}</span></li>)}</ul></div>
+        <div className="capability-tools"><p>{item.note}</p><ul>{item.tools.map(tool => <li key={tool.name}><Image src={`/icons/brands/${tool.icon}.svg`} width={30} height={30} alt="" /><span>{tool.name}</span></li>)}</ul></div>
       </article>
     })}</div>
   </section>

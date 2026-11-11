@@ -30,7 +30,7 @@ function ProjectEntry({ project, index, content }: { project: Project; index: nu
       <p className="project-summary">{project.summary}</p>
       <div className="project-built"><span>{copy.buildLabel}</span><ul>{project.technologies.slice(0,4).map(technology => {
         const icon = technologyIcons[technology] ?? content.heroLogos.find(mark => mark.name === technology)?.slug
-        return <li key={technology}>{icon && <Image src={`icons/brands/${icon}.svg`} alt="" width={16} height={16} />}{technology}</li>
+        return <li key={technology}>{icon && <Image src={`/icons/brands/${icon}.svg`} alt="" width={16} height={16} />}{technology}</li>
       })}{project.technologies.length > 4 && <li className="project-more-tools">+{project.technologies.length - 4}</li>}</ul></div>
       <div className="project-case-links">{project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">{liveLabel}<ExternalLink size={13} aria-hidden="true" /></a>}{project.repoUrl && <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">{copy.code}<ExternalLink size={13} aria-hidden="true" /></a>}</div>
     </div>

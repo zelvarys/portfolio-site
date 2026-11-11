@@ -75,7 +75,7 @@ export function PortraitScene({ src, alt, logos }: { src: string; alt: string; l
       <Image className="hero-portrait" src={src} alt={alt} fill sizes="(max-width: 700px) 100vw, (max-width: 1000px) 470px, 38vw" preload />
       <div className="hero-logo-field" aria-hidden="true">
         {logos.map((logo, index) => <span className="hero-asteroid" key={logo.slug} ref={element => { elements.current[index] = element }} style={{ left: `${logo.x}%`, top: `${logo.y}%`, width: logo.size, height: logo.size }}>
-          <Image src={`icons/brands/${logo.slug}.svg`} alt="" width={logo.size} height={logo.size} />
+          <Image src={`/icons/brands/${logo.slug}.svg`} alt="" width={logo.size} height={logo.size} />
         </span>)}
       </div>
     </div>
