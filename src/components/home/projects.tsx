@@ -4,7 +4,11 @@ import type { PortfolioContent } from "@/lib/portfolio-content"
 import { Image } from "@/components/ui/image"
 import { ProjectCollection } from "./project-collection"
 
-const technologyIcons: Record<string, string> = { "Gemini API": "googlegemini", "GitHub GraphQL": "github", Vite: "vite" }
+const technologyIcons: Record<string, string> = {
+  TypeScript: "typescript", React: "react", PostgreSQL: "postgresql", Redis: "redis", Vite: "vite", Express: "express", Docker: "docker",
+  JavaScript: "javascript", "Node.js": "nodedotjs", "Gemini API": "googlegemini", "Tailwind CSS": "tailwindcss", npm: "npm",
+  "Next.js": "nextdotjs", "GitHub GraphQL": "github",
+}
 
 function ProjectEntry({ project, index, content }: { project: Project; index: number; content: PortfolioContent }) {
   const copy = content.home.projects
@@ -25,12 +29,12 @@ function ProjectEntry({ project, index, content }: { project: Project; index: nu
     </div>
     <div className="project-case-copy">
       <div className="project-case-meta"><span>{String(index + 1).padStart(2,"0")}</span><span>{project.category}</span></div>
-      <h3 id={`project-${project.slug}`}>{project.liveUrl ? <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">{name}<ArrowUpRight size={24} aria-hidden="true" /></a> : <span className="project-title-static">{name}</span>}</h3>
+      <h3 id={`project-${project.slug}`}>{project.liveUrl ? <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">{name}<ArrowUpRight size={24} aria-hidden="true" /></a> : <span>{name}</span>}</h3>
       {descriptor.length > 0 && <p className="project-subtitle">{descriptor.join(" – ")}</p>}
       <p className="project-summary">{project.summary}</p>
       <div className="project-built"><span>{copy.buildLabel}</span><ul>{project.technologies.slice(0,4).map(technology => {
-        const icon = technologyIcons[technology] ?? content.heroLogos.find(mark => mark.name === technology)?.slug
-        return <li key={technology}>{icon && <Image src={`/icons/brands/${icon}.svg`} alt="" width={16} height={16} />}{technology}</li>
+        const icon = technologyIcons[technology]
+        return <li key={technology}>{icon && <Image src={`icons/brands/${icon}.svg`} alt="" width={16} height={16} />}{technology}</li>
       })}{project.technologies.length > 4 && <li className="project-more-tools">+{project.technologies.length - 4}</li>}</ul></div>
       <div className="project-case-links">{project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">{liveLabel}<ExternalLink size={13} aria-hidden="true" /></a>}{project.repoUrl && <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">{copy.code}<ExternalLink size={13} aria-hidden="true" /></a>}</div>
     </div>

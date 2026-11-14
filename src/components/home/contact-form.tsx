@@ -22,6 +22,6 @@ export function ContactForm({ copy }: { copy: HomepageCopy["contact"]["form"] })
     <div className="form-field"><input id="contact-email" name="email" type="email" aria-label={copy.email} autoComplete="email" required maxLength={200} placeholder={copy.emailPlaceholder} disabled={status === "sending"} /></div>
     <div className="form-field form-message"><label htmlFor="contact-message">{copy.message}</label><textarea id="contact-message" name="message" required maxLength={5000} rows={4} placeholder={copy.messagePlaceholder} disabled={status === "sending"} /></div>
     <div className="form-bottom"><button type="submit" disabled={status === "sending"}>{status === "sending" ? copy.sending : copy.submit}{status === "sending" ? <LoaderCircle size={18} className="contact-spinner" aria-hidden="true" /> : <Send size={16} aria-hidden="true" />}</button></div>
-    <p className={`form-status form-status-${status}`} role="status" aria-live="polite">{status === "success" ? copy.success : ""}</p>
+    <p className="form-status" role="status" aria-live="polite">{status === "success" ? copy.success : ""}</p>
   </form>
 }

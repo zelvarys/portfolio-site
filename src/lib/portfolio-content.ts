@@ -1,5 +1,5 @@
 import { profile } from "@/content/profile"
-import { homeContent, heroLogos } from "@/content/home"
+import { homeContent } from "@/content/home"
 import { projects } from "@/content/projects"
 import { process, processPresentation, faqs } from "@/content/services"
 import { outsideContent, capabilitiesContent } from "@/content/journey"
@@ -10,7 +10,6 @@ export function getPortfolioContent() {
     profile,
     home: homeContent,
     projects,
-    heroLogos,
     process,
     processPresentation,
     faqs,
