@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="630" viewBox="0 0 1000 630" role="img" aria-labelledby="title desc">
+  <title id="title">Repositron terminal overview</title>
+  <desc id="desc">A dark terminal window showing the Repositron repository dashboard with health, activity, dependencies, contributor concentration, tool adoption, and CI cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09090b"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <radialGradient id="topGlow" cx="50%" cy="0%" r="80%">
+      <stop stop-color="#1d4ed8" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+  </defs>
+  <rect x="0.5" y="0.5" width="999" height="629" rx="18" fill="url(#bg)" stroke="#27272a" filter="url(#shadow)"/>
+  <rect x="0.5" y="0.5" width="999" height="629" rx="18" fill="url(#topGlow)"/>
+  <path d="M1 46H999" stroke="#1c1c1f"/>
+  <circle cx="28" cy="23" r="6" fill="#3f3f46"/>
+  <circle cx="48" cy="23" r="6" fill="#3f3f46"/>
+  <circle cx="68" cy="23" r="6" fill="#3f3f46"/>
+  <text x="500" y="28" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#71717a">~ repositron</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace">
+    <text x="30" y="82" font-size="15" font-weight="700" fill="#60a5fa" letter-spacing="1">[&gt;_] REPOSITRON</text>
+    <text x="970" y="82" text-anchor="end" font-size="13" fill="#f5f5f4" letter-spacing="1">OVERVIEW</text>
+    <text x="30" y="110" font-size="14" fill="#f5f5f4">octocat/widget</text>
+    <text x="970" y="110" text-anchor="end" font-size="14" fill="#a1a1aa">1234 stars · TypeScript</text>
+    <path d="M1 128H999" stroke="#27272a"/>
+
+    <rect x="24" y="140" width="116" height="28" rx="4" fill="#1d4ed8"/>
+    <text x="82" y="159" text-anchor="middle" font-size="13" fill="#ffffff">1 Overview</text>
+    <text x="168" y="159" font-size="13" fill="#a1a1aa">2 Tools</text>
+    <text x="246" y="159" font-size="13" fill="#a1a1aa">3 Activity</text>
+    <text x="340" y="159" font-size="13" fill="#a1a1aa">4 Dependencies</text>
+    <text x="480" y="159" font-size="13" fill="#a1a1aa">5 CI</text>
+
+    <rect x="28" y="182" width="608" height="170" rx="6" fill="#0d0f14" stroke="#1d4ed8"/>
+    <text x="48" y="210" font-size="13" font-weight="700" fill="#93c5fd" letter-spacing="1.2">REPOSITORY HEALTH</text>
+    <text x="48" y="254" font-size="32" font-weight="700" fill="#f5f5f4">84.2<tspan dx="6" font-size="15" fill="#a1a1aa">/100</tspan></text>
+    <text x="48" y="280" font-size="13" fill="#4ade80">healthy</text>
+    <text x="260" y="210" font-size="13" fill="#a1a1aa">Activity</text>
+    <rect x="260" y="220" width="344" height="5" rx="2.5" fill="#27272a"/>
+    <rect x="260" y="220" width="305" height="5" rx="2.5" fill="#60a5fa"/>
+    <text x="604" y="210" text-anchor="end" font-size="13" fill="#f5f5f4">82</text>
+    <text x="260" y="244" font-size="13" fill="#a1a1aa">Workflow</text>
+    <rect x="260" y="254" width="344" height="5" rx="2.5" fill="#27272a"/>
+    <rect x="260" y="254" width="290" height="5" rx="2.5" fill="#4ade80"/>
+    <text x="604" y="244" text-anchor="end" font-size="13" fill="#f5f5f4">78</text>
+    <text x="260" y="278" font-size="13" fill="#a1a1aa">Spread</text>
+    <rect x="260" y="288" width="344" height="5" rx="2.5" fill="#27272a"/>
+    <rect x="260" y="288" width="264" height="5" rx="2.5" fill="#facc15"/>
+    <text x="604" y="278" text-anchor="end" font-size="13" fill="#f5f5f4">71</text>
+    <text x="260" y="312" font-size="13" fill="#a1a1aa">Quality</text>
+    <rect x="260" y="322" width="344" height="5" rx="2.5" fill="#27272a"/>
+    <rect x="260" y="322" width="275" height="5" rx="2.5" fill="#60a5fa"/>
+    <text x="604" y="312" text-anchor="end" font-size="13" fill="#f5f5f4">74</text>
+
+    <rect x="652" y="182" width="320" height="170" rx="6" fill="#0d0f14" stroke="#3f3f46"/>
+    <text x="670" y="210" font-size="13" font-weight="700" fill="#93c5fd" letter-spacing="1.2">COMMIT ACTIVITY</text>
+    <text x="670" y="244" font-size="22" font-weight="700" fill="#f5f5f4">24 commits / 30d</text>
+    <text x="670" y="268" font-size="13" fill="#a1a1aa">7 contributors · 38.2% top 1</text>
+    <path d="M670 284H954" stroke="#27272a"/>
+    <text x="670" y="310" font-size="13" font-weight="700" fill="#93c5fd" letter-spacing="1.2">TOOL ADOPTION</text>
+    <text x="670" y="334" font-size="13" fill="#a1a1aa">8/13 detected · 11 relevant</text>
+
+    <rect x="28" y="366" width="290" height="150" rx="6" fill="#0d0f14" stroke="#3f3f46"/>
+    <text x="46" y="394" font-size="13" font-weight="700" fill="#93c5fd" letter-spacing="1.2">DEPENDENCIES</text>
+    <text x="46" y="426" font-size="22" font-weight="700" fill="#f5f5f4">46 direct</text>
+    <text x="46" y="450" font-size="13" fill="#facc15">7 outdated</text>
+    <text x="46" y="474" font-size="13" fill="#a1a1aa">46 checked · registry complete</text>
+
+    <rect x="330" y="366" width="290" height="150" rx="6" fill="#0d0f14" stroke="#3f3f46"/>
+    <text x="348" y="394" font-size="13" font-weight="700" fill="#93c5fd" letter-spacing="1.2">CONTRIBUTOR CONCENTRATION</text>
+    <text x="348" y="426" font-size="22" font-weight="700" fill="#f5f5f4">38.2% top 1</text>
+    <text x="348" y="450" font-size="13" fill="#a1a1aa">Gini 0.41</text>
+    <text x="348" y="474" font-size="13" fill="#a1a1aa">top 3 71%</text>
+
+    <rect x="632" y="366" width="340" height="150" rx="6" fill="#0d0f14" stroke="#3f3f46"/>
+    <text x="650" y="394" font-size="13" font-weight="700" fill="#93c5fd" letter-spacing="1.2">CI HEALTH</text>
+    <text x="650" y="426" font-size="22" font-weight="700" fill="#f5f5f4">92.4% success</text>
+    <text x="650" y="450" font-size="13" fill="#a1a1aa">18 workflows tracked</text>
+    <text x="650" y="474" font-size="13" fill="#a1a1aa">2 recent failures</text>
+
+    <path d="M1 548H999" stroke="#1c1c1f"/>
+    <text x="30" y="580" font-size="13" fill="#a1a1aa">Press 1-5: tabs</text>
+    <text x="162" y="580" font-size="13" fill="#a1a1aa">Press q/Esc: repos</text>
+    <text x="322" y="580" font-size="13" fill="#a1a1aa">Ctrl+C exits</text>
+    <text x="970" y="580" text-anchor="end" font-size="13" fill="#71717a">2026-11-17 01:42:11</text>
+  </g>
+</svg>

@@ -14,11 +14,11 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "repositron",
-    title: "Repositron – Repository Health Dashboard",
-    summary: "A repository health dashboard that scans a GitHub repo and surfaces activity, dependency freshness, workflow reliability, structure, contributor concentration and commit quality in one clear view.",
-    category: "Developer tool",
-    technologies: ["TypeScript", "React", "PostgreSQL", "Redis", "Vite", "Express", "BullMQ", "Docker"],
-    image: "projects/repositron.png",
+    title: "Repositron – Repository Health CLI",
+    summary: "An interactive CLI that signs in with GitHub, lists repositories you own or have contributed to in the last year, and scans one on demand for health, activity, dependency drift, CI reliability, bus factor and tool adoption — all locally, with no database, hosted backend or worker.",
+    category: "CLI tool",
+    technologies: ["TypeScript", "React", "Ink", "Node.js", "Zod", "npm"],
+    image: "projects/repositron-terminal.svg",
     repoUrl: "https://github.com/zelvarys/repositron-dt",
     featured: true,
   },
